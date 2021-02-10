@@ -1,0 +1,2505 @@
+<!DOCTYPE csi2_output>
+<lattice:project>
+    <spirit:component>
+        <spirit:vendor>LATTICE</spirit:vendor>
+        <spirit:library>LOCAL</spirit:library>
+        <spirit:name>csi2_output</spirit:name>
+        <spirit:version>1.0</spirit:version>
+        <spirit:fileSets>
+            <spirit:fileset>
+                <spirit:name>Diamond_Synthesis</spirit:name>
+                <spirit:group>synthesis</spirit:group>
+                <spirit:file>
+                    <spirit:name>./csi2_output.v</spirit:name>
+                    <spirit:fileType>verilogSource</spirit:fileType>
+                </spirit:file>
+            </spirit:fileset>
+            <spirit:fileset>
+                <spirit:name>Diamond_Simulation</spirit:name>
+                <spirit:group>simulation</spirit:group>
+                <spirit:file>
+                    <spirit:name>./csi2_output.v</spirit:name>
+                    <spirit:fileType>verilogSource</spirit:fileType>
+                </spirit:file>
+            </spirit:fileset>
+        </spirit:fileSets>
+        <spirit:componentGenerators/>
+        <spirit:model>
+            <spirit:views/>
+            <spirit:ports>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_byte_clk_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_byte_clk_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.byte_clk_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_byte_data_en_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_byte_data_en_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.byte_data_en_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_c2d_ready_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_c2d_ready_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.c2d_ready_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_clk_hs_en_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_clk_hs_en_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.clk_hs_en_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_clk_n_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_clk_n_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.clk_n_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_clk_p_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_clk_p_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.clk_p_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d0_n_io</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d0_n_io</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d0_n_io</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d0_p_io</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d0_p_io</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d0_p_io</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d1_n_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d1_n_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d1_n_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d1_p_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d1_p_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>inout</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d1_p_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d_hs_en_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d_hs_en_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d_hs_en_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_d_hs_rdy_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_d_hs_rdy_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.d_hs_rdy_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_ld_pyld_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_ld_pyld_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.ld_pyld_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_lp_en_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_lp_en_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.lp_en_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_pd_dphy_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_pd_dphy_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.pd_dphy_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_pix2byte_rstn_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_pix2byte_rstn_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.pix2byte_rstn_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_pll_lock_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_pll_lock_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.pll_lock_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_ref_clk_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_ref_clk_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.ref_clk_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_reset_n_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_reset_n_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.reset_n_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_sp_en_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_sp_en_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.sp_en_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_tinit_done_o</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_tinit_done_o</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>out</spirit:direction>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.tinit_done_o</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_byte_data_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_byte_data_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>63</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.byte_data_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_dt_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_dt_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>5</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.dt_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_frame_max_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_frame_max_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>7</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.frame_max_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_vc_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_vc_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>1</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.vc_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+                <spirit:port>
+                    <spirit:name>csi2_raw10_output_wc_i</spirit:name>
+                    <spirit:displayName>csi2_raw10_output_wc_i</spirit:displayName>
+                    <spirit:wire>
+                        <spirit:direction>in</spirit:direction>
+                        <spirit:vector>
+                            <spirit:left>15</spirit:left>
+                            <spirit:right>0</spirit:right>
+                        </spirit:vector>
+                    </spirit:wire>
+                    <spirit:vendorExtensions>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="exportFrom">csi2_raw10_output.wc_i</lattice:attribute>
+                        </lattice:attributes>
+                    </spirit:vendorExtensions>
+                </spirit:port>
+            </spirit:ports>
+        </spirit:model>
+        <spirit:vendorExtensions>
+            <lattice:device>LIF-MD6000-6MG81I</lattice:device>
+            <lattice:synthesis>lse</lattice:synthesis>
+            <lattice:date>2021-02-08.20:39:19</lattice:date>
+            <lattice:modified>2021-02-08.20:40:52</lattice:modified>
+            <lattice:diamond>3.11.2.446</lattice:diamond>
+            <lattice:language>Verilog</lattice:language>
+            <lattice:attributes>
+                <lattice:attribute lattice:name="AddComponent">false</lattice:attribute>
+                <lattice:attribute lattice:name="Change4to5">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeConfig">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeConnect">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeDevice">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeLocate">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangePack">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangePart">false</lattice:attribute>
+                <lattice:attribute lattice:name="ChangeSynthesis">false</lattice:attribute>
+                <lattice:attribute lattice:name="Migrate">false</lattice:attribute>
+                <lattice:attribute lattice:name="RemovedComponent">false</lattice:attribute>
+            </lattice:attributes>
+            <lattice:elements/>
+            <lattice:lpc/>
+            <lattice:groups/>
+        </spirit:vendorExtensions>
+    </spirit:component>
+    <spirit:design>
+        <spirit:vendor>LATTICE</spirit:vendor>
+        <spirit:library>LOCAL</spirit:library>
+        <spirit:name>csi2_output</spirit:name>
+        <spirit:version>1.0</spirit:version>
+        <spirit:componentInstances>
+            <spirit:componentInstance>
+                <spirit:instanceName>csi2_raw10_output</spirit:instanceName>
+                <spirit:componentRef>
+                    <spirit:vendor>Lattice Semiconductor Corporation</spirit:vendor>
+                    <spirit:library>LEGACY</spirit:library>
+                    <spirit:name>CSI-2/DSI D-PHY Transmitter</spirit:name>
+                    <spirit:version>1.3</spirit:version>
+                    <spirit:fileSets>
+                        <spirit:fileset>
+                            <spirit:name>Diamond_Simulation</spirit:name>
+                            <spirit:group>simulation</spirit:group>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_dphy_tx.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_synchronizer.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_dci_wrapper.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_pkt_formatter.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tinit_count.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tx_global_operation.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/dphytx_eval/csi2_raw10_output/src/beh_rtl/pkt_formatter_beh.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/dphytx_eval/csi2_raw10_output/src/beh_rtl/tinit_count_beh.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/dphytx_eval/csi2_raw10_output/src/beh_rtl/tx_global_operation_beh.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/dphytx_eval/testbench/csi2_raw10_output_tb.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                        </spirit:fileset>
+                        <spirit:fileset>
+                            <spirit:name>Diamond_Synthesis</spirit:name>
+                            <spirit:group>synthesis</spirit:group>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_dphy_tx.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_synchronizer.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_dci_wrapper.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_pkt_formatter_bb.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_pkt_formatter.ngo</spirit:name>
+                                <spirit:userFileType>NGO</spirit:userFileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tinit_count_bb.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tinit_count.ngo</spirit:name>
+                                <spirit:userFileType>NGO</spirit:userFileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tx_global_operation_bb.v</spirit:name>
+                                <spirit:fileType>verilogSource</spirit:fileType>
+                            </spirit:file>
+                            <spirit:file>
+                                <spirit:name>./csi2_raw10_output/csi2_raw10_output_tx_global_operation.ngo</spirit:name>
+                                <spirit:userFileType>NGO</spirit:userFileType>
+                            </spirit:file>
+                        </spirit:fileset>
+                    </spirit:fileSets>
+                    <spirit:componentGenerators>
+                        <spirit:componentGenerator spirit:hidden="true" spirit:scope="instance">
+                            <spirit:name>Configuration</spirit:name>
+                            <spirit:apiType>none</spirit:apiType>
+                            <spirit:generatorExe>${sbp_path}/${instance}/generate_core.tcl</spirit:generatorExe>
+                            <spirit:group>CONFIG</spirit:group>
+                        </spirit:componentGenerator>
+                    </spirit:componentGenerators>
+                    <spirit:model>
+                        <spirit:views/>
+                        <spirit:ports>
+                            <spirit:port>
+                                <spirit:name>byte_clk_o</spirit:name>
+                                <spirit:displayName>byte_clk_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>byte_data_en_i</spirit:name>
+                                <spirit:displayName>byte_data_en_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>c2d_ready_o</spirit:name>
+                                <spirit:displayName>c2d_ready_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>clk_hs_en_i</spirit:name>
+                                <spirit:displayName>clk_hs_en_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>clk_n_o</spirit:name>
+                                <spirit:displayName>clk_n_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>clk_p_o</spirit:name>
+                                <spirit:displayName>clk_p_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d0_n_io</spirit:name>
+                                <spirit:displayName>d0_n_io</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d0_p_io</spirit:name>
+                                <spirit:displayName>d0_p_io</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d1_n_o</spirit:name>
+                                <spirit:displayName>d1_n_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d1_p_o</spirit:name>
+                                <spirit:displayName>d1_p_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>inout</spirit:direction>
+                                </spirit:wire>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d_hs_en_i</spirit:name>
+                                <spirit:displayName>d_hs_en_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>d_hs_rdy_o</spirit:name>
+                                <spirit:displayName>d_hs_rdy_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ld_pyld_o</spirit:name>
+                                <spirit:displayName>ld_pyld_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>lp_en_i</spirit:name>
+                                <spirit:displayName>lp_en_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>pd_dphy_i</spirit:name>
+                                <spirit:displayName>pd_dphy_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>pix2byte_rstn_o</spirit:name>
+                                <spirit:displayName>pix2byte_rstn_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>pll_lock_o</spirit:name>
+                                <spirit:displayName>pll_lock_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>ref_clk_i</spirit:name>
+                                <spirit:displayName>ref_clk_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>reset_n_i</spirit:name>
+                                <spirit:displayName>reset_n_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>sp_en_i</spirit:name>
+                                <spirit:displayName>sp_en_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>tinit_done_o</spirit:name>
+                                <spirit:displayName>tinit_done_o</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>out</spirit:direction>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>byte_data_i</spirit:name>
+                                <spirit:displayName>byte_data_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>63</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>dt_i</spirit:name>
+                                <spirit:displayName>dt_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>5</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>frame_max_i</spirit:name>
+                                <spirit:displayName>frame_max_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>7</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>vc_i</spirit:name>
+                                <spirit:displayName>vc_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>1</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                            <spirit:port>
+                                <spirit:name>wc_i</spirit:name>
+                                <spirit:displayName>wc_i</spirit:displayName>
+                                <spirit:wire>
+                                    <spirit:direction>in</spirit:direction>
+                                    <spirit:vector>
+                                        <spirit:left>15</spirit:left>
+                                        <spirit:right>0</spirit:right>
+                                    </spirit:vector>
+                                </spirit:wire>
+                                <spirit:vendorExtensions>
+                                    <lattice:attributes>
+                                        <lattice:attribute lattice:name="PadPin">true</lattice:attribute>
+                                    </lattice:attributes>
+                                </spirit:vendorExtensions>
+                            </spirit:port>
+                        </spirit:ports>
+                    </spirit:model>
+                    <spirit:vendorExtensions>
+                        <lattice:synthesis>lse</lattice:synthesis>
+                        <lattice:date>13-03-16.00:00:00</lattice:date>
+                        <lattice:modified>2021-02-08.20:40:52</lattice:modified>
+                        <lattice:attributes>
+                            <lattice:attribute lattice:name="AddComponent">false</lattice:attribute>
+                            <lattice:attribute lattice:name="Change4to5">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeConfig">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeConnect">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeDevice">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeLocate">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangePack">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangePart">false</lattice:attribute>
+                            <lattice:attribute lattice:name="ChangeSynthesis">false</lattice:attribute>
+                            <lattice:attribute lattice:name="CoreType">IPCFG</lattice:attribute>
+                            <lattice:attribute lattice:name="DCU_RXREFCLK">PRIMARY</lattice:attribute>
+                            <lattice:attribute lattice:name="DCU_TXREFCLK">PRIMARY</lattice:attribute>
+                            <lattice:attribute lattice:name="Migrate">false</lattice:attribute>
+                            <lattice:attribute lattice:name="RemovedComponent">false</lattice:attribute>
+                        </lattice:attributes>
+                        <lattice:elements/>
+                        <lattice:lpc>
+                            <lattice:lpcsection lattice:name="Device"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Family</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">sn5w00</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>OperatingCondition</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">IND</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Package</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">CSFBGA81</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>PartName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LIF-MD6000-6MG81I</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>PartType</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LIF-MD6000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>SpeedGrade</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">6</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Status</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">S</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="IP"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">CSI-2/DSI D-PHY Transmitter</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreRevision</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1.3</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreStatus</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CoreType</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">IPCFG</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Date</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">02/08/2021</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ModuleName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">csi2_raw10_output</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>ParameterFileVersion</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1.1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>SourceFormat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Verilog</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>Time</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">20:40:37</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>VendorName</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">Lattice Semiconductor Corporation</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcsection lattice:name="Parameters"/>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>CORE_SYNP</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>bypassdcs</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>bypasspktformat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>bypasstinit</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>byteclk</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">114.0000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>byteclkdisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">114</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>byteclkround</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">114</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>clkovride</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>cm</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">198</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>cmdcntwidth</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">10</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>cn</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>co</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>crc16</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>data_type</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">RGB888</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>data_type_str</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">RGB888</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dataformat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">CSI-2</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dataformat_str</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">TX_CSI2</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>datawidth</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">16</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>datovride</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>datwidth</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">16</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dcsclk</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">28.5000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dcsclkdisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">29</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dcsfile</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dcsmode</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dcswordcnt</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dsiformat</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>dt</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">6'h24</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>eotp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>filterfrstlne</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>framecnt</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>gear16</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>lanewidth</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">2</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>linecnt</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>maxtxrate</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1500</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>miscon</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>numpixln</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>numtxch</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>numtxln</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">2</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>pkthdrfifoimpl</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">LUT</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>pllmult</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>refclk_ps</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">20833</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>romwaittime</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>rxgear</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclkexit</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">12</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclkhszero</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">29</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclkpost</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">13</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclkpre</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclkprep</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">5</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tclktrail</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">7</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tdatexit</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">11</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tdathszero</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">12</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tdatprep</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">6</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tdattrail</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtdphyclk</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">456.0000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtdphyclkdisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">456</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtpixclk</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">48</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtpixclkdisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtpixclkint</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtrxrate</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgtrxratedisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgttxrate</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">912</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgttxratetotal</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1824.0000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tgttxratetotaldisp</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1824</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tinitvalue</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">1000</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>tlpx</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">6</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>txdphyclkmode</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">HS_LP</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>txgear</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">8</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>vcch0</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">0</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>wc</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant"></lattice:lpcvalue>
+                            </lattice:lpcentry>
+                            <lattice:lpcentry>
+                                <lattice:lpckey>wordwidth</lattice:lpckey>
+                                <lattice:lpcvalue lattice:resolve="constant">24</lattice:lpcvalue>
+                            </lattice:lpcentry>
+                        </lattice:lpc>
+                        <lattice:groups/>
+                    </spirit:vendorExtensions>
+                </spirit:componentRef>
+            </spirit:componentInstance>
+        </spirit:componentInstances>
+        <spirit:adHocConnections>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_clk_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_clk_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="byte_clk_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_clk_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_en_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_en_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="byte_data_en_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_en_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_c2d_ready_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_c2d_ready_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="c2d_ready_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_c2d_ready_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_clk_hs_en_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_clk_hs_en_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="clk_hs_en_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_clk_hs_en_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_clk_n_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_clk_n_o</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="clk_n_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_clk_n_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_clk_p_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_clk_p_o</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="clk_p_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_clk_p_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d0_n_io</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d0_n_io</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="d0_n_io" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d0_n_io"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d0_p_io</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d0_p_io</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="d0_p_io" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d0_p_io"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d1_n_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d1_n_o</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="d1_n_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d1_n_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d1_p_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d1_p_o</spirit:displayName>
+                <spirit:internalPortReference spirit:portRef="d1_p_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d1_p_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d_hs_en_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d_hs_en_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="d_hs_en_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d_hs_en_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_d_hs_rdy_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_d_hs_rdy_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="d_hs_rdy_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_d_hs_rdy_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_ld_pyld_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_ld_pyld_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="ld_pyld_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_ld_pyld_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_lp_en_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_lp_en_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="lp_en_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_lp_en_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_pd_dphy_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_pd_dphy_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="pd_dphy_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_pd_dphy_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_pix2byte_rstn_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_pix2byte_rstn_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="pix2byte_rstn_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_pix2byte_rstn_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_pll_lock_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_pll_lock_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="pll_lock_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_pll_lock_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_ref_clk_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_ref_clk_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="ref_clk_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_ref_clk_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_reset_n_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_reset_n_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="reset_n_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_reset_n_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_sp_en_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_sp_en_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="sp_en_i" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_sp_en_i"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_tinit_done_o</spirit:name>
+                <spirit:displayName>csi2_raw10_output_tinit_done_o</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:portRef="tinit_done_o" spirit:componentRef="csi2_raw10_output"/>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_tinit_done_o"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="byte_data_i" spirit:componentRef="csi2_raw10_output" spirit:left="63"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="csi2_raw10_output_byte_data_i" spirit:left="63"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[0]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[0]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[0]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[0]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[10]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[10]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[10]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[10]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[11]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[11]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[11]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[11]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[12]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[12]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[12]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[12]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[13]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[13]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[13]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[13]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[14]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[14]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[14]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[14]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[15]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[15]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[15]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[15]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[16]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[16]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[16]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[16]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[17]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[17]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[17]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[17]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[18]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[18]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[18]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[18]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[19]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[19]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[19]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[19]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[1]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[1]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[1]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[1]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[20]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[20]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[20]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[20]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[21]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[21]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[21]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[21]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[22]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[22]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[22]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[22]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[23]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[23]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[23]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[23]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[24]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[24]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[24]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[24]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[25]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[25]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[25]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[25]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[26]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[26]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[26]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[26]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[27]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[27]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[27]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[27]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[28]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[28]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[28]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[28]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[29]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[29]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[29]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[29]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[2]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[2]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[2]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[2]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[30]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[30]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[30]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[30]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[31]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[31]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[31]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[31]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[32]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[32]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[32]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[32]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[33]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[33]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[33]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[33]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[34]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[34]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[34]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[34]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[35]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[35]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[35]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[35]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[36]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[36]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[36]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[36]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[37]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[37]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[37]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[37]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[38]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[38]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[38]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[38]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[39]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[39]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[39]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[39]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[3]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[3]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[3]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[3]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[40]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[40]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[40]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[40]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[41]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[41]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[41]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[41]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[42]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[42]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[42]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[42]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[43]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[43]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[43]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[43]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[44]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[44]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[44]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[44]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[45]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[45]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[45]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[45]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[46]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[46]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[46]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[46]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[47]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[47]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[47]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[47]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[48]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[48]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[48]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[48]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[49]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[49]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[49]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[49]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[4]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[4]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[4]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[4]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[50]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[50]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[50]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[50]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[51]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[51]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[51]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[51]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[52]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[52]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[52]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[52]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[53]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[53]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[53]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[53]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[54]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[54]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[54]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[54]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[55]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[55]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[55]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[55]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[56]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[56]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[56]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[56]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[57]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[57]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[57]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[57]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[58]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[58]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[58]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[58]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[59]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[59]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[59]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[59]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[5]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[5]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[5]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[5]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[60]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[60]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[60]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[60]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[61]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[61]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[61]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[61]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[62]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[62]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[62]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[62]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[63]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[63]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[63]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[63]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[6]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[6]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[6]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[6]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[7]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[7]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[7]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[7]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[8]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[8]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[8]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[8]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_byte_data_i[9]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_byte_data_i[9]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_byte_data_i[9]"/>
+                <spirit:internalPortReference spirit:portRef="byte_data_i[9]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="dt_i" spirit:componentRef="csi2_raw10_output" spirit:left="5"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="csi2_raw10_output_dt_i" spirit:left="5"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[0]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[0]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[0]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[0]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[1]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[1]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[1]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[1]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[2]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[2]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[2]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[2]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[3]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[3]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[3]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[3]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[4]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[4]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[4]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[4]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_dt_i[5]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_dt_i[5]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_dt_i[5]"/>
+                <spirit:internalPortReference spirit:portRef="dt_i[5]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="frame_max_i" spirit:componentRef="csi2_raw10_output" spirit:left="7"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="csi2_raw10_output_frame_max_i" spirit:left="7"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[0]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[0]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[0]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[0]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[1]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[1]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[1]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[1]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[2]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[2]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[2]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[2]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[3]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[3]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[3]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[3]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[4]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[4]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[4]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[4]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[5]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[5]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[5]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[5]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[6]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[6]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[6]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[6]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_frame_max_i[7]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_frame_max_i[7]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_frame_max_i[7]"/>
+                <spirit:internalPortReference spirit:portRef="frame_max_i[7]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_vc_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_vc_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="vc_i" spirit:componentRef="csi2_raw10_output" spirit:left="1"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="csi2_raw10_output_vc_i" spirit:left="1"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_vc_i[0]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_vc_i[0]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_vc_i[0]"/>
+                <spirit:internalPortReference spirit:portRef="vc_i[0]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_vc_i[1]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_vc_i[1]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_vc_i[1]"/>
+                <spirit:internalPortReference spirit:portRef="vc_i[1]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:internalPortReference spirit:right="0" spirit:portRef="wc_i" spirit:componentRef="csi2_raw10_output" spirit:left="15"/>
+                <spirit:externalPortReference spirit:right="0" spirit:portRef="csi2_raw10_output_wc_i" spirit:left="15"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[0]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[0]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[0]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[0]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[10]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[10]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[10]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[10]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[11]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[11]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[11]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[11]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[12]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[12]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[12]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[12]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[13]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[13]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[13]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[13]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[14]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[14]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[14]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[14]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[15]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[15]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[15]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[15]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[1]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[1]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[1]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[1]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[2]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[2]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[2]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[2]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[3]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[3]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[3]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[3]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[4]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[4]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[4]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[4]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[5]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[5]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[5]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[5]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[6]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[6]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[6]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[6]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[7]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[7]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[7]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[7]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[8]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[8]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[8]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[8]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+            <spirit:adHocConnection>
+                <spirit:name>csi2_raw10_output_wc_i[9]</spirit:name>
+                <spirit:displayName>csi2_raw10_output_wc_i[9]</spirit:displayName>
+                <spirit:vendorExtensions>
+                    <lattice:attributes>
+                        <lattice:attribute lattice:name="export">sys_yes</lattice:attribute>
+                    </lattice:attributes>
+                </spirit:vendorExtensions>
+                <spirit:externalPortReference spirit:portRef="csi2_raw10_output_wc_i[9]"/>
+                <spirit:internalPortReference spirit:portRef="wc_i[9]" spirit:componentRef="csi2_raw10_output"/>
+            </spirit:adHocConnection>
+        </spirit:adHocConnections>
+    </spirit:design>
+</lattice:project>
