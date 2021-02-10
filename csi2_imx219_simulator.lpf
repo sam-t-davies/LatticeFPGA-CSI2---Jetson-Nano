@@ -1,0 +1,10 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+LOCATE COMP "top_clarity_tx_reset_n_i" SITE "G9" ;
+LOCATE COMP "top_clarity_led_o[0]" SITE "E7" ;
+LOCATE COMP "top_clarity_led_o[1]" SITE "F7" ;
+LOCATE COMP "top_clarity_led_o[2]" SITE "J5" ;
+LOCATE COMP "top_clarity_led_o[3]" SITE "H5" ;
+LOCATE COMP "clarity_tx2_inst/csi2_raw10_output_inst/u_dphy_tx/pll_lock_o_I_0/clk_p_o_I_0" SITE "MIPIDPHY0" ;
+LOCATE COMP "top_clarity_tx_i2c_slave_sda_io" SITE "J2" ;
+LOCATE COMP "top_clarity_tx_i2c_slave_scl_i" SITE "F2" ;
