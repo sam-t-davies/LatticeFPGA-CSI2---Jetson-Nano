@@ -129,10 +129,11 @@ module simulator_top (
 
     
 	reg initializeComplete;
-	reg resetOverride;	    initial begin        
-        initializeComplete <= 0;
-		resetOverride <= 0;
-	end
+	reg resetOverride;
+        initial begin        
+            initializeComplete <= 0;
+	    resetOverride <= 0;
+        end
 	
 	always @(posedge top_clarity_tx_ref_clk_w) begin
 		if(initializeComplete == 0) begin
